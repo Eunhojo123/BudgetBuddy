@@ -1,0 +1,154 @@
+/* HTML Tags */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+  background-color: #E9967A;
+  background-size: auto;
+  width: 100%;
+
+}
+
+h2 {
+  background-color: none; 
+  color: #E9967A;
+  cursor: default;
+  font-weight: bold;
+
+}
+
+a {
+  text-decoration: none;
+  transition: .1s;
+}
+
+a:visited {
+  color: black;
+
+}
+
+a:hover {
+  text-decoration: underline;
+
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Classes */
+.container {
+  background-color: #1061E4;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+
+}
+
+.left_container {
+  background-color: #1061E4;
+  width: 70%;
+  height: 100vh;
+  position: fixed;
+
+}
+
+.right_container {
+  background-color: #E9967A;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+}
+
+.bg_image {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../Images/backgroundimage.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+
+}
+
+.login_button,
+.signup_button {
+  background-color: #1061E4;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  transition: .3s;
+  border-radius: 9px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 20px;
+  width: 140px;
+
+}
+
+.login_button:hover,
+.signup_button:hover {
+  background-color: #06498F;
+  color: white;
+  cursor: pointer;
+  transition: .1s;
+
+}
+
+/* Identifiers */
+#Budget_Buddy_Header {
+  color: white;
+  text-align: left;
+  vertical-align: middle;
+  margin-top: 10px;
+  padding: 20px;
+
+}
+
+#Get_Started_Text {
+  color: black;
+  padding: 1px;
+  text-align: center;
+  margin-top: 200px;
+
+}
+
+#ASU_Logo {
+  width: 100px;
+  height: 100px;
+  top: 475px;
+  position: absolute;
+  left: 40%;
+
+}
+
+#homepage_footer {
+  top: 550px;
+  font-size: 10px;
+  position: absolute;
+  left: 37%;
+
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+
+}
