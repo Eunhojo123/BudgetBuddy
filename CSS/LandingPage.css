@@ -83,7 +83,8 @@ p {
 }
 
 .login_button,
-.signup_button {
+.signup_button,
+.homepage_button {
   background-color: #1061E4;
   color: white;
   padding: 10px 30px;

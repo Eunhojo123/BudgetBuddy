@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weclome</title>
+  <link rel="stylesheet" href="../CSS/HomePage.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="header_container">
+
+      <div class="header">
+
+        <h2 class="Budget_Buddy_Header">Budget Buddy</h2>
+
+
+      </div>
+
+    </div>
+
+    <div class="column_container">
+
+      <div class="left_column">
+
+        <h2 id="insert_text">Insert Expenses</h2>
+
+        <form>
+
+          <label for="FoodDrink"> Food & Drink: </label>
+          <input type="text" id="foodexpense" name="foodexpense" placeholder="Enter your expenses here">
+
+          <br>
+
+          <label for="BillPay"> Bills & Payments: </label>
+          <input type="text" id="BillPay" name="BillPay" placeholder="Enter your expenses here">
+
+          <br>
+
+          <label for="Entertain"> Entertainment: </label>
+          <input type="text" id="Ent" name="Ent" placeholder="Enter your expenses here">
+
+          <br>
+
+          <label for="OtherMisc"> Other: </label>
+          <input type="text" id="other" name="other" placeholder="Enter your expenses here">
+
+          <button id="submit_button" type="submit">Submit</button>
+
+        </form>
+
+      </div>
+
+      <div class="middle_column">
+
+        <h2 id="graphs_text">Graphs</h2>
+        <img id="graph1" src="../Images/demo_graph1.jpg">
+        <img id="graph2" src="../Images/demo_graph2.jpg">
+
+      </div>
+
+      <div class="right_column">
+
+        <h2 id="nav_panel_text">Dashboard, Payments, etc</h2>
+
+        <button>Payments</button>
+        <button>Budget</button>
+        <button>Settings</button>
+        <button>Help</button>
+        <button id="logout_button" onclick="location.href='../index.html'">Sign Out</button>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <script src="../JS/script.js"></script>
+
+</body>
+
+</html>
